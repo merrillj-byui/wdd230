@@ -75,9 +75,10 @@ h3 {
 }
 
 img {
-    height: 200px;
-    width: 185px;
-    padding-right: 2em;
+    margin-right: 2em;
+    border: solid;
+    border-radius: .5em;
+
 }
 
 ul,
