@@ -40,7 +40,7 @@ main {
 
 footer {
     display: inline-block;
-    background: rgba(48, 88, 151, 0.896);
+    background: black;
     padding: 1rem;
     color: white;
     text-align: center;
