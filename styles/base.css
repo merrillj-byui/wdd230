@@ -1,8 +1,6 @@
 body {
-    display: grid;
     height: 100vh;
     text-align: center;
-    grid-template: auto auto 1fr auto / auto 500px auto;
 }
 
 header {
@@ -10,15 +8,14 @@ header {
     padding: 2em;
     display: block;
     align-items: center;
-    grid-column: 1/4;
+    margin: 0 auto;
 }
 
 nav {
+    display: grid;
+    grid-template-columns: 1fr;
     background: black;
     color: white;
-    /*text padding: 2rem;*/
-    display: grid;
-    grid-column: 1/4;
 }
 
 nav a {
@@ -29,12 +26,11 @@ nav a {
 }
 
 main {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 80%;
     background: white;
     padding: 2rem;
-    width: 500px;
-    display: grid;
-    text-align: center;
-    grid-column: 2/3;
     margin: 1rem auto;
 }
 
@@ -44,7 +40,7 @@ footer {
     padding: 1rem;
     color: white;
     text-align: center;
-    grid-column: 1/4;
+    width: 100%;
 }
 
 h1 {
@@ -57,6 +53,8 @@ h1 {
 h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-bottom: solid;
+    border-width: .75px;
+    border-color: grey;
     padding: 0 0 .5em 0;
 }
 
@@ -68,15 +66,19 @@ h3 {
 }
 
 .card {
+    width: 100%;
     border: solid;
-    border-radius: .25em;
-    margin-bottom: 1em;
+    border-width: .5px;
+    border-color: lightgrey;
+    border-radius: .5em;
+    margin: 1rem auto;
     text-align: center;
 }
 
 img {
     margin-right: 2em;
     border: solid;
+    border-width: .5px;
     border-radius: .5em;
 
 }
