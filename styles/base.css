@@ -35,7 +35,7 @@ main {
     display: grid;
     text-align: center;
     grid-column: 2/3;
-
+    margin: 1rem auto;
 }
 
 footer {
