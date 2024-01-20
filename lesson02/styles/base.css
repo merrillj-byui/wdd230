@@ -5,7 +5,8 @@ body {
 
 header {
     display: block;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
+    text-align: center;
     padding: 1em;
     font-size: 1.5em;
     background-color: rgb(57, 96, 159);
