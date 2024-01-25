@@ -105,6 +105,7 @@ li {
 
 iframe {
     grid-column: 1/2;
+    width: 100%;
 }
 
 #menubutton {
