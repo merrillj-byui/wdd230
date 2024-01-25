@@ -4,8 +4,8 @@
     }
 
     main {
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 1rem;
+        grid-template-columns: auto auto;
+        grid-gap: 0 1rem;
     }
 
     h2 {
