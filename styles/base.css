@@ -9,20 +9,31 @@ header {
     display: block;
     align-items: center;
     margin: 0 auto;
+    border-bottom: solid;
 }
 
-nav {
+#menu {
     display: grid;
-    grid-template-columns: 1fr;
-    background: black;
+    background-color: black;
     color: white;
+    list-style: none;
 }
 
-nav a {
-    text-decoration: none;
+#menu a {
+    display: none;
     color: white;
     font-family: Arial;
     padding: 1em;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.active::before {
+    content: "➤ ";
 }
 
 main {
@@ -30,8 +41,8 @@ main {
     grid-template-columns: 1fr;
     width: 80%;
     background: white;
-    padding: 2rem;
-    margin: 1rem auto;
+    padding: 0;
+    margin: 0 auto;
 }
 
 footer {
@@ -71,7 +82,7 @@ h3 {
     border-width: .5px;
     border-color: lightgrey;
     border-radius: .5em;
-    margin: 1rem auto;
+    margin: 5px auto;
     text-align: center;
 }
 
@@ -89,4 +100,26 @@ li {
     margin: .5em;
     padding: 0;
     text-align: left;
+}
+
+#menubutton {
+    font-size: 2rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+#menubutton::before {
+    content: "☰";
+}
+
+#menubutton.open::before {
+    content: "✖️"
+}
+
+#menu.open a {
+    display: block;
 }
