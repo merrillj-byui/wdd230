@@ -100,29 +100,28 @@ td {
     background-color: #374249;
     color: white;
     display: flex;
+}
 
-    section {
-        width: 25%;
-        padding: 1em;
-    }
+#nav_bar_example>span {
+    width: 25%;
+    padding: 1em;
+}
 
-    section:hover {
-        background-color: #0071C1;
-    }
+#nav_bar_example>span:hover {
+    background-color: #0071C1;
 }
 
 #nav_drop_example {
     background-color: #374249;
     color: white;
-    display: inline-block;
+    display: grid;
+    width: 200px;
+}
 
-    section {
-        padding: .5em;
-        width: 100px;
-    }
+#nav_drop_example>span {
+    padding: 1em;
+}
 
-    section:hover {
-        background-color: #0071C1;
-    }
-
+#nav_drop_example>span:hover {
+    background-color: #0071C1;
 }
