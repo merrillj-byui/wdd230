@@ -1,0 +1,183 @@
+* {
+    --heading-font: "Open Sans", sans-serif;
+    --body-font: Arial, Helvetica, sans-serif;
+    font-family: var(--body-font);
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: block;
+    background-color: #374249;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    min-height: 100px;
+    min-width: 460px;
+    font-family: var(--heading-font);
+}
+
+header h1,
+header h2 {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    margin-top: 10px;
+    font-size: 2.5em;
+}
+
+#toplogo {
+    position: absolute;
+    left: 10px;
+    height: 100px;
+}
+
+h1,
+h2,
+h3,
+#menubutton {
+    font-family: var(--heading-font);
+}
+
+#menu {
+    display: grid;
+    background-color: #000;
+    color: white;
+    list-style: none;
+    text-align: left;
+    position: fixed;
+    top: 50px;
+    right: 10px;
+
+}
+
+#menu a {
+    display: none;
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+
+}
+
+#menu a:hover {
+    background-color: #0071C1;
+}
+
+.active::after {
+    content: " ◆";
+}
+
+#menubutton {
+    font-size: 2rem;
+    border: 0;
+    background: none;
+    color: lightgray;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+
+}
+
+#menubutton::before {
+    content: "☰";
+}
+
+#menubutton.open::before {
+    content: "x";
+}
+
+#menu.open a {
+    display: block;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 20px 150px auto;
+    grid-template-rows: 20px 50px auto;
+    background-color: #0071C1;
+}
+
+#hero img {
+    max-height: 300px;
+    max-width: 1100px;
+    object-fit: cover;
+    margin: 0 auto;
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+
+.joinbutton {
+    background-color: #008001;
+    color: white;
+    font-size: 1em;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    font-family: var(--heading-font);
+}
+
+.content {
+    display: block;
+}
+
+#events,
+#weather,
+.spotlight {
+    text-align: left;
+    background-color: lightgray;
+    border: solid .5px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    display: grid;
+    grid-template: auto auto / 100px auto auto;
+    background-color: #374249;
+    color: white;
+    padding: 10px;
+    min-height: 100px;
+    min-width: 460px;
+}
+
+#bottomlogo {
+    grid-column: 1;
+    grid-row: 1 / 2;
+    height: 100px;
+}
+
+#mailing_addr {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: left;
+}
+
+#mailing_addr h3,
+#mailing_addr h2 {
+    margin: 0;
+}
+
+#contact_info {
+    grid-column: 3;
+    grid-row: 1;
+    text-align: left;
+}
+
+#copymod {
+    grid-column: 1 / 4;
+    grid-row: 2;
+    text-align: center;
+    margin: 10px auto;
+}
+
+footer p {
+    padding: 0;
+    margin: 0;
+}

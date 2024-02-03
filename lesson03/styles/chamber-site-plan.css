@@ -5,7 +5,6 @@
 header {
     display: grid;
     grid-template: auto auto auto / auto auto auto;
-    font-family: 'Palatino', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     background-color: #0071C1;
     text-align: center;
@@ -40,8 +39,9 @@ div {
 
 h1,
 h2,
-h3 {
-    font-family: 'Palatino', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+h3,
+h4 {
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul {

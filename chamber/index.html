@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elk Ridge City Chamber of Commerce</title>
+    <meta name="author" content="Joe Merrill">
+    <meta name="description" content="Elk Ridge City Chamber of Commerce website">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href='https://fonts.googleapis.com/css?family=Open%20Sans' rel='stylesheet'>
+    <meta property="og:title" content="Elk Ridge City Chamber of Commerce">
+    <meta property="og:description" content="Elk Ridge City Chamber of Commerce website">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/elkridge.png">
+    <meta property="og:url" content="https://merrillj-byui.github.io/wdd230/chamber/">
+</head>
+
+<body>
+    <header>
+        <img id="toplogo" src="images/elk_ridge_city_chamber_logo_transparent.png" alt="logo">
+        <h1>Elk Ridge City </h1>
+        <h2>Chamber of Commerce</h2>
+    </header>
+    <button id="menubutton"></button>
+    <nav id="menu">
+        <a href="#" class="active">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>
+    </nav>
+    <main>
+        <div id="hero">
+            <img src="images/elkridge.png" alt="favicon">
+            <button class="joinbutton">Join the Chamber</button>
+        </div>
+        <div id="content">
+            <section id="events">
+                <h2>Events</h2>
+                <div class="card">
+                    <h3>Event 1</h3>
+                    This is the first event
+                    When
+                    Where
+                </div>
+            </section>
+            <section id="weather">
+                <h2>Weather</h2>
+                <div class="card">
+                    <h3>Today is sunny</h3>
+                    65° F /
+                    Humidity
+                    Wind chill
+                </div>
+            </section>
+            <section class="spotlight">
+                <h2>Spotlight</h2>
+                <div class="card">
+                    <h3>Spotlight 1</h3>
+                    This is the first spotlight.
+                </div>
+                <h2>Spotlight</h2>
+                <div class="card">
+                    <h3>Spotlight 2</h3>
+                    This is the second spotlight.
+                </div>
+                <h2>Spotlight</h2>
+                <div class="card">
+                    <h3>Spotlight 3</h3>
+                    This is the third spotlight.
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <img id="bottomlogo" src="images/elk_ridge_city_chamber_logo_transparent.png" alt="logo">
+        <div id="mailing_addr">
+            <h2>Elk Ridge City</h2>
+            <h3>Chamber of Commerce</h3>
+            <p>street address</p>
+            <p>Elk Ridge, UT 84651</p>
+        </div>
+        <div id="contact_info">
+            <p>email@address.org</p>
+            <p>(555) 555-1234</p>
+            <p>Directions</p>
+        </div>
+        <div id="copymod">
+            <div id="copyright"></div> | Joe Merrill | WDD 230 Chamber project
+            <p>Last Modified:
+            <div id="modified"></div>
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/menu.js"></script>
+
+</body>
+
+</html>
