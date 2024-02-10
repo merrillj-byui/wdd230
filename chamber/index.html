@@ -25,8 +25,9 @@
         <img id="toplogo" src="images/elk_ridge_city_chamber_logo_transparent.png" alt="logo">
         <h1>Elk Ridge City
             Chamber of Commerce</h1>
+        <button id='darkmode'></button>
+        <button id="menubutton"></button>
     </header>
-    <button id="menubutton"></button>
     <nav id="menu">
         <a href="#" class="active">Home</a>
         <a href="discover.html">Discover</a>
@@ -36,42 +37,43 @@
     <main>
         <div id="hero">
             <img src="images/elkridge.png" alt="favicon">
-            <button class="joinbutton">Join the Chamber</button>
+            <button id="joinbutton">Join the Chamber</button>
         </div>
         <div id="content">
-            <section id="events">
+            <div id="events" class="card">
                 <h2>Events</h2>
-                <div class="card">
-                    <h3>Event 1</h3>
-                    This is the first event
-                    When
-                    Where
-                </div>
-            </section>
-            <section id="weather">
+                <h3>Ribbon Cutting - The Diam💎nd Shack</h3>
+                Join us for the grand opening of the Diamond Shack, Thursday at 1:00 p.m. <a href="">More info...</a>
+            </div>
+            <div id="weather" class="card">
                 <h2>Weather</h2>
-                <div class="card">
-                    <h3>Today is sunny</h3>
-                    65° F /
-                    Humidity
-                    Wind chill
-                </div>
-            </section>
+                <h3>Today is sunny</h3>
+                65° F /
+                Humidity
+                Wind chill
+            </div>
+            <h2>Member Spotlights</h2>
             <section class="spotlight">
-                <h2>Spotlight</h2>
-                <div class="card">
-                    <h3>Spotlight 1</h3>
-                    This is the first spotlight.
+                <div class="spotlight card">
+                    <h3>🚚 Thankful Transport</h3>
+                    <p>"We get it there for you!"</p>
+                    <p>hello@thankfultransport.com</p>
+                    <p>+999-9999-9999</p>
+                    <p>Website</p>
                 </div>
-                <h2>Spotlight</h2>
-                <div class="card">
-                    <h3>Spotlight 2</h3>
-                    This is the second spotlight.
+                <div class="spotlight card">
+                    <h3>👩🏽‍💻 Code Primera</h3>
+                    <p>After school coding!</p>
+                    <p>contact@codeprimera.com</p>
+                    <p>+999-9999-9999</p>
+                    <p>Website</p>
                 </div>
-                <h2>Spotlight</h2>
-                <div class="card">
-                    <h3>Spotlight 3</h3>
-                    This is the third spotlight.
+                <div class="spotlight card">
+                    <h3>🌳 Build A Treefort</h3>
+                    <p>Over 1000 Plans!</p>
+                    <p>builda@treefort.com</p>
+                    <p>+888-8888-8888</p>
+                    <p>Website</p>
                 </div>
             </section>
         </div>
@@ -97,6 +99,7 @@
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/darkmode.js"></script>
 
 </body>
 
