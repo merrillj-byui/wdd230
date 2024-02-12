@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elk Ridge City Chamber of Commerce</title>
+    <meta name="author" content="Joe Merrill">
+    <meta name="description" content="Elk Ridge City Chamber of Commerce website">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base_b.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href='https://fonts.googleapis.com/css?family=Open%20Sans' rel='stylesheet'>
+    <meta property="og:title" content="Elk Ridge City Chamber of Commerce">
+    <meta property="og:description" content="Elk Ridge City Chamber of Commerce website">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://merrillj-byui.github.io/wdd2030/chamber/images/elkridge.png">
+    <meta property="og:url" content="https://merrillj-byui.github.io/wdd230/chamber/">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HCB07HV8JP"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-HCB07HV8JP');
+</script>
+
+<body>
+    <header>
+        <img id="toplogo" src="images/elk_ridge_city_chamber_logo_transparent.png" alt="logo">
+        <h1>Elk Ridge City
+            Chamber of Commerce</h1>
+        <button id='darkmode'></button>
+        <button id="menubutton"></button>
+    </header>
+    <nav id="menu">
+        <a href="#" class="active">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>
+    </nav>
+    <main>
+        <div id="hero">
+            <img src="images/elkridge.png" alt="favicon">
+            <button id="joinbutton">Join the Chamber</button>
+        </div>
+        <div id="content">
+            <div id="events" class="card">
+                <h2>Events</h2>
+                <h3>Ribbon Cutting - The Diam💎nd Shack</h3>
+                Join us for the grand opening of the Diamond Shack, Thursday at 1:00 p.m. <a href="">More info...</a>
+            </div>
+            <div id="weather" class="card">
+                <h2>Weather</h2>
+                <h3>Today is sunny</h3>
+                65° F /
+                Humidity
+                Wind chill
+            </div>
+            <h2>Member Spotlights</h2>
+            <section class="spotlight">
+                <div class="spotlight card">
+                    <h3>🚚 Thankful Transport</h3>
+                    <p>"We get it there for you!"</p>
+                    <p>hello@thankfultransport.com</p>
+                    <p>+999-9999-9999</p>
+                    <p>Website</p>
+                </div>
+                <div class="spotlight card">
+                    <h3>👩🏽‍💻 Code Primera</h3>
+                    <p>After school coding!</p>
+                    <p>contact@codeprimera.com</p>
+                    <p>+999-9999-9999</p>
+                    <p>Website</p>
+                </div>
+                <div class="spotlight card">
+                    <h3>🌳 Build A Treefort</h3>
+                    <p>Over 1000 Plans!</p>
+                    <p>builda@treefort.com</p>
+                    <p>+888-8888-8888</p>
+                    <p>Website</p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <img id="bottomlogo" src="images/elk_ridge_city_chamber_logo_transparent.png" alt="logo">
+        <div id="mailing_addr">
+            <h2>Elk Ridge City</h2>
+            <h3>Chamber of Commerce</h3>
+            <p>street address</p>
+            <p>Elk Ridge, UT 84651</p>
+        </div>
+        <div id="contact_info">
+            <p>email@address.org</p>
+            <p>(555) 555-1234</p>
+            <p>Directions</p>
+        </div>
+        <div id="copymod">
+            <div id="copyright"></div> | Joe Merrill | WDD 230 Chamber project
+            <p>Last Modified:
+            <div id="modified"></div>
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/darkmode.js"></script>
+
+</body>
+
+</html>
