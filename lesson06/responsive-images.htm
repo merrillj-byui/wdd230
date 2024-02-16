@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+    <meta name="author" content="Joe Merrill">
+    <meta name="description" content="Responsive Images: WDD230, Joe Merrill">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/responsive-images.css">
+    <meta property="og:title" content="Responsive Images">
+    <meta property="og:description" content="Responsive Images: WDD230, Joe Merrill">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://merrillj-byui.github.io/wdd230/images/elkridge.png">
+    <meta property="og:url" content="https://merrillj-byui.github.io/wdd230/index.html">
+</head>
+
+<body>
+    <header>
+        <h1>Responsive Images</h1>
+    </header>
+    <nav>
+    </nav>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+                <img src="images/hero-large.webp" alt="Payson, Utah Temple" width="1500" height="750">
+            </picture>
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>
