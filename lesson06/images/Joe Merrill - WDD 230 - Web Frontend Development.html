@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe Merrill - WDD 230 - Web Frontend Development</title>
+    <meta name="author" content="Joe Merrill">
+    <meta name="description" content="Joe Merrill&#39;s course assignment portal for WDD 230 - Web Frontend Development">
+    
+    
+    
+    
+    <meta property="og:title" content="Joe Merrill - WDD 230 - Web Frontend Development">
+    <meta property="og:description" content="Homepage for WDD 230 course work by Joe Merrill">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://merrillj-byui.github.io/wdd230/images/elkridge.webp">
+    <meta property="og:url" content="https://merrillj-byui.github.io/wdd230/index.html">
+<link rel="icon" href="http://127.0.0.1:5500/favicon.ico"><link rel="stylesheet" href="./Joe Merrill - WDD 230 - Web Frontend Development_files/normalize.css"><link rel="stylesheet" href="./Joe Merrill - WDD 230 - Web Frontend Development_files/base.css"><link rel="stylesheet" href="./Joe Merrill - WDD 230 - Web Frontend Development_files/larger.css"></head>
+
+<body>
+    <header>
+        <img src="./Joe Merrill - WDD 230 - Web Frontend Development_files/joemerrill-profile.webp" alt="Joe Merrill profile picture">
+        <h1>Joe Merrill</h1>
+    </header>
+    <button id="menubutton"></button>
+    <nav id="menu">
+        <a href="http://127.0.0.1:5500/index.html#" class="active">Home</a>
+        <a href="http://127.0.0.1:5500/lesson03/chamber-site-plan.html">Site Plan</a>
+        <a href="http://127.0.0.1:5500/chamber/">Chamber</a>
+        <a href="https://byui.edu/">BYU-Idaho</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a>
+    </nav>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 400px)">
+                <img src="./Joe Merrill - WDD 230 - Web Frontend Development_files/hero-large.webp" alt="Payson, Utah Temple" width="960" height="480">
+            </picture>
+            <div class="temple_label">
+                Payson, Utah Temple
+            </div>
+        </div>
+
+        <h2>WDD 230: Web Frontend Development</h2>
+        <section class="card">
+            <h3>Learning Activities</h3>
+            <ul>
+                <li>01:
+                    <a href="http://127.0.0.1:5500/lesson01/holygrail.html">Holy Layout</a>
+                    | <a href="https://codepen.io/Joseph-Merrill/pen/dyrOKJP">JS Pen</a>
+                </li><li>02:
+                    <a href="http://127.0.0.1:5500/lesson02/media-query.html">Media Query</a>
+                    | <a href="http://127.0.0.1:5500/lesson02/design.html">Design</a>
+                    | <a href="http://127.0.0.1:5500/lesson02/design-principles.html">Design Principles Document</a>
+                </li><li>03:
+                    <a href="http://127.0.0.1:5500/lesson03/images/combinator_exercises_screenshot.png">Combinators</a>
+                    | <a href="https://codepen.io/Joseph-Merrill/pen/ZEPXaJK">Pseudo Elements</a>
+                    | <a href="https://codepen.io/Joseph-Merrill/pen/MWxEOBv">Responsive Menu</a>
+                    | <a href="http://127.0.0.1:5500/lesson03/chamber-site-plan.html">Chamber Site Plan</a>
+                </li><li>04:
+                    <a href="https://codepen.io/Joseph-Merrill/pen/OJqzNav">Pseudo Classes</a>
+                    | <a href="http://127.0.0.1:5500/chamber/">Chamber Site</a>
+                </li><li>05: <a href="http://127.0.0.1:5500/lesson05/bom.html">BoM Top 10</a>
+                    | <a href="http://127.0.0.1:5500/chamber/">Chamber Site</a>
+                </li><li>06: <a href="http://127.0.0.1:5500/lesson06/images/landscape.webp">WebP</a>
+                    | <a href="http://127.0.0.1:5500/lesson06/responsive-images.htm">Responsive Images</a>
+                </li><li>07:
+                </li><li>08:
+                </li><li>09:
+                </li><li>10:
+            </li></ul>
+        </section>
+        <section class="card">
+            <h3>Information</h3>
+            <p id="location">Location</p>
+            <p id="weather">Weather</p>
+            <p id="visits">Visits</p>
+        </section>
+        <iframe src="./Joe Merrill - WDD 230 - Web Frontend Development_files/embed.html" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map of Elk Ridge, Utah"></iframe>
+    </main>
+    <footer>
+        <p>
+            <span id="copyright">©2024</span>, Joe Merrill, USA 🇺🇸
+        </p>
+        <p>Last modification: <span id="modified">Thu Feb 15 2024 23:45:50 GMT-0700 (Mountain Standard Time)</span></p>
+    </footer>
+    <script src="./Joe Merrill - WDD 230 - Web Frontend Development_files/getdates.js"></script>
+    <script src="./Joe Merrill - WDD 230 - Web Frontend Development_files/menu.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
