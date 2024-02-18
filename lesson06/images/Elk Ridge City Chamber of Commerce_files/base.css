@@ -49,7 +49,7 @@ h3,
     position: absolute;
     top: 2.5em;
     right: 0;
-    z-index: 3;
+
 }
 
 #menu a {
@@ -57,6 +57,7 @@ h3,
     color: white;
     text-decoration: none;
     padding: 1em 2em;
+
 }
 
 #menu a:hover {
@@ -106,30 +107,30 @@ h3,
 }
 
 #hero {
-    display: block;
-    position: relative;
-    top: 0px;
+    display: grid;
 }
 
 #hero img {
-    width: 100%;
-    height: auto;
+    max-height: 300px;
+    min-height: 100px;
+    max-width: 100%;
     object-fit: cover;
     margin: 0 auto;
-
+    grid-column: 1;
+    grid-row: 1;
 }
 
 #joinbutton {
     background-color: #008001;
     color: white;
     font-size: 1em;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 20px auto;
     height: 3em;
     width: 12em;
     font-family: var(--heading-font);
-    border-radius: .5em;
-    position: absolute;
-    top: 1em;
-    right: 40%;
+    border-radius: 10px;
 }
 
 .card {

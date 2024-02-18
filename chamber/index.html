@@ -32,7 +32,7 @@
 
 <body>
     <header>
-        <img id="toplogo" src="images/elk_ridge_city_chamber_logo_transparent.png" alt="logo">
+        <img id="toplogo" src="images/elk_ridge_city_chamber_logo_transparent.webp" alt="logo">
         <h1>Elk Ridge City
             Chamber of Commerce</h1>
         <button id='darkmode'></button>
@@ -46,7 +46,18 @@
     </nav>
     <main>
         <div id="hero">
-            <img src="images/elkridge.jpeg" alt="favicon">
+            <!--
+            <picture>
+                <source srcset="images/elkridge-small.webp" media="(max-width: 500px)">
+                <source srcset="images/elkridge-medium.webp" media="(max-width: 800px)">
+                <img src="images/elkridge-large.webp" alt="Elk Ridge City Hero Image">
+            </picture>
+            -->
+            <picture>
+                <source srcset="./images/wdd230-org-small.webp" media="(max-width: 500px)">
+                <source srcset="images/wdd230-org-medium.webp" media="(max-width: 1000px)">
+                <img src="images/wdd230-org-large.webp" alt="WDD230 Org Image" width="1500" height="1000">
+            </picture>
             <button id="joinbutton">Join the Chamber</button>
         </div>
         <div id="content">
@@ -58,27 +69,28 @@
             <div id="weather" class="card">
                 <h2>Weather</h2>
                 <h3>Today is sunny</h3>
-                65° F /
-                Humidity
-                Wind chill
+                Temperature: <span id="temperature">48</span>° F /
+                Wind speed: <span id="wind_speed">20</span> /
+                Humidity: <span id="humidity"></span> /
+                Wind chill: <span id="wind_chill"></span>
             </div>
             <h2>Member Spotlights</h2>
             <section class="spotlight">
-                <div class="spotlight card">
+                <div class=" card">
                     <h3>🚚 Thankful Transport</h3>
                     <p>"We get it there for you!"</p>
                     <p>hello@thankfultransport.com</p>
                     <p>+999-9999-9999</p>
                     <p>Website</p>
                 </div>
-                <div class="spotlight card">
+                <div class=" card">
                     <h3>👩🏽‍💻 Code Primera</h3>
                     <p>After school coding!</p>
                     <p>contact@codeprimera.com</p>
                     <p>+999-9999-9999</p>
                     <p>Website</p>
                 </div>
-                <div class="spotlight card">
+                <div class=" card">
                     <h3>🌳 Build A Treefort</h3>
                     <p>Over 1000 Plans!</p>
                     <p>builda@treefort.com</p>
@@ -110,7 +122,7 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/menu.js"></script>
     <script src="scripts/darkmode.js"></script>
-
+    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>
