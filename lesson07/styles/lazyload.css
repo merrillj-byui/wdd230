@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+
+img {
+    display: flex;
+    margin: 1em auto;
+    background: black;
+    animation: fade 15s;
+}
+
+footer {
+    background: lightgray;
+    text-align: center;
+    padding: 1em;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
